@@ -1,0 +1,13 @@
+[loadbalancer]
+54.233.130.230 ansible_user=ubuntu ansible_ssh_private_key_file=/home/fernandocunha/Documents/AWS/SSH/chavedocunha3.pem
+
+[webserver]
+18.231.79.14 ansible_user=ubuntu ansible_ssh_private_key_file=/home/fernandocunha/Documents/AWS/SSH/chavedocunha3.pem
+
+54.233.226.128 ansible_user=ubuntu ansible_ssh_private_key_file=/home/fernandocunha/Documents/AWS/SSH/chavedocunha3.pem
+
+[database]
+52.67.219.25 ansible_user=ubuntu ansible_ssh_private_key_file=/home/fernandocunha/Documents/AWS/SSH/chavedocunha3.pem
+
+[control]
+localhost ansible_connection=local
